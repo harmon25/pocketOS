@@ -24,3 +24,7 @@ pocket_os-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+*.avm
+
+priv/icons

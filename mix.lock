@@ -1,7 +1,8 @@
 %{
-  "avm_scene": {:git, "https://github.com/AtomVM/avm_scene.git", "c43ce8f8da4058669ac0cf819b8763023f4f6450", []},
+  "avm_scene": {:git, "https://github.com/AtomVM/avm_scene.git", "aba9249f189d29d4564d81ba50bbe9fe28bc1d44", []},
   "elixir_make": {:hex, :elixir_make, "0.9.0", "6484b3cd8c0cee58f09f05ecaf1a140a8c97670671a6a0e7ab4dc326c3109726", [:mix], [], "hexpm", "db23d4fd8b757462ad02f8aa73431a426fe6671c80b200d9710caf3d1dd0ffdb"},
-  "exatomvm": {:git, "https://github.com/AtomVM/exatomvm.git", "656255a605b1effaf08598729bca1038cb3f62b1", []},
+  "espnow": {:git, "https://github.com/harmon25/atomvm_espnow.git", "586838419c92cf0157f83aafed6390f73cdfd44c", []},
+  "exatomvm": {:git, "https://github.com/AtomVM/exatomvm.git", "0f9351417673d347d442c3283cca1bfeb47458f6", []},
   "uf2tool": {:hex, :uf2tool, "1.1.0", "7091931234ca5a256b66ea691983867d51229798622d083f85c1ad779798a734", [:rebar3], [], "hexpm", "1a7e5ca7ef3d19c7a0b0acf3db804b3188e0980884acffa13fd57d733507b73d"},
-  "uprotobuf": {:git, "https://github.com/bettio/uprotobuf/", "999fe8840d72e0f9e0a8f537a50a0968eb7a9f19", []},
+  "uprotobuf": {:git, "https://github.com/bettio/uprotobuf.git", "999fe8840d72e0f9e0a8f537a50a0968eb7a9f19", []},
 }

@@ -6,8 +6,8 @@ defmodule HAL do
   # @platform "linux"
   # @platform "esp32-devkit"
   # @platform {"m5stack", "faces"}
-  # @platform "t-deck"
-  @platform "t-pager"
+  @platform "t-deck"
+  # @platform "t-pager"
 
   def init() do
     IO.puts("Platform is: #{inspect(@platform)}")
