@@ -352,7 +352,8 @@ defmodule HAL do
   end
 
   defp has_peripheral?("t-deck", "radio"), do: true
-  defp has_peripheral?("t-deck", "gps"), do: true
+  defp has_peripheral?("t-deck", "gps"), do: false
+
   defp has_peripheral?("t-pager", "radio"), do: true
   defp has_peripheral?("t-pager", "gps"), do: true
   defp has_peripheral?(_, _), do: false

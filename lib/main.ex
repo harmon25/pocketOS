@@ -24,16 +24,17 @@ defmodule Main do
 
       {:ok, _ui} = UI.start_link(opts, [display_server: display_server] ++ opts)
 
-      if HAL.has_peripheral?("radio") do
-        RadioLauncher.start()
-      else
-        :ok
-      end
+      # if HAL.has_peripheral?("radio") do
+      #   RadioLauncher.start()
+      # else
+      #   :ok
+      # end
     else
       _ ->
         IO.puts("Failed HAL init.")
     end
 
+    Process.sleep(5000)
     maybe_start_network()
     maybe_start_init()
 
@@ -64,6 +65,10 @@ defmodule Main do
           IO.puts("An error occurred starting network: #{inspect(error)}\n")
           :ok
       end
+    else
+      err ->
+        IO.puts("Failed to read wifi.sxp #{inspect(err)}")
+        :ok
     end
   end
 

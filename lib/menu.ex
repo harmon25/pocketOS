@@ -89,24 +89,24 @@ defmodule UI.Menu do
     #      app: UI.Terminal,
     #      args: [mfa: {WASMLauncher, :start, ["wasi_hello_world.wasm"]}]
     #    },
-    %{
-      source: {:pocket_os, "icons/apps/terminal.rgba"},
-      text: "Lora Mon",
-      app: UI.Terminal,
-      args: [mf: {CLIApps.LoraMonitor, :start}]
-    },
-    %{
-      source: {:pocket_os, "icons/apps/mail.rgba"},
-      text: "MeshMsgs",
-      app: UI.MeshMessages,
-      args: []
-    },
-    %{
-      source: {:pocket_os, "icons/apps/map.rgba"},
-      text: "Map",
-      app: UI.Map,
-      args: []
-    },
+    # %{
+    #   source: {:pocket_os, "icons/apps/terminal.rgba"},
+    #   text: "Lora Mon",
+    #   app: UI.Terminal,
+    #   args: [mf: {CLIApps.LoraMonitor, :start}]
+    # },
+    # %{
+    #   source: {:pocket_os, "icons/apps/mail.rgba"},
+    #   text: "MeshMsgs",
+    #   app: UI.MeshMessages,
+    #   args: []
+    # },
+    # %{
+    #   source: {:pocket_os, "icons/apps/map.rgba"},
+    #   text: "Map",
+    #   app: UI.Map,
+    #   args: []
+    # },
     %{
       source: {:pocket_os, "icons/apps/shut_down.rgba"},
       text: "Shut Down",
